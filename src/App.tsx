@@ -1,11 +1,10 @@
 import React from 'react';
 import "./assets/styles/global.css";
+import Landing from "./pages/Landing"; //Nao precisa passar o arquivo se o nome for index
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <Landing />
   );
 }
 
